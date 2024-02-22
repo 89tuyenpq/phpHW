@@ -11,5 +11,4 @@ class AdminController extends Controller
         return view('admin.dashboard'); // Trả về view 'admin.dashboard'
     }
 
-    // Các phương thức khác của AdminController
 }
