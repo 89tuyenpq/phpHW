@@ -1,5 +1,5 @@
 <?php
-use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/create', [ProductController::class, 'create']);
